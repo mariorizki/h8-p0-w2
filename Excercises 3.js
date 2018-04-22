@@ -1,5 +1,5 @@
 var nama = 'Budi';
-var peran = 'Archer';
+var peran = 'Archer'; //peran : Tank, Support, Archer
 
 if (nama === 'Budi' && peran === 'Tank') {
 	console.log(
