@@ -10,9 +10,9 @@ var x = 0;
 var y = 0;
 var star = '';
 
-for(x = 5; x >= 0; x--)
+for(x = 5; x > 0; x--)
 {
-  for(y = 5; y >= 0; y--)
+  for(y = 5; y > 0; y--)
   {
     star = star + '*';
   } console.log(star);
