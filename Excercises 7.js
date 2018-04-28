@@ -33,3 +33,18 @@ for(x3 = 1; x3 <= 5; x3++)
   } console.log(star3);
   star3 = '';
 }
+
+console.log('\nSoal 4\n')
+
+var x3 = 0;
+var y3 = 0;
+var star3 = '';
+
+for(x3 = 5; x3 > 0; x3--)
+{
+  for(y3 = 0; y3 < x3; y3++)
+  {
+    star3 = star3 + '*';
+  } console.log(star3);
+  star3 = '';
+}
