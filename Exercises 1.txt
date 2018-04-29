@@ -1,0 +1,52 @@
+SOAL 1
+
+STORE "massa" with 600
+STORE "percepatan" with 2
+STORE "resultan" without any value
+
+CALCULATE "massa" times "percepatan"
+SET "resultan" value with calculation result
+
+DISPLAY "resultan"
+
+SOAL 2
+
+STORE "year" without any value
+
+IF "year" modulo 4 equal 0 && "year" modulo 100 not equal 0
+    DISPLAY "year" is leap year
+ELSE IF "year" modulo 4 equal 0 && "year" modulo 100 equal 0 && "year" modulo 400 equal 0
+    DISPLAY "year" is leap year
+ELSE 
+    DISPLAY "year" isn't leap year
+END IF
+
+SOAL 3
+
+STORE "pakaian" with 0
+
+WHILE "pakaian" < 20
+    DISPLAY jumlah pakaian yang dimasukkan "pakaian"
+    INCREMENT "pakaian"
+
+ENDWHILE
+
+DISPLAY "mesin cuci menyala"
+
+SOAL 4
+
+STORE "murid" with 0
+STORE "kukuPanjang" without any value
+
+WHILE "murid" < 40
+    DISPLAY jumlah "murid" yang periksa
+    INCREMENT "murid"
+    IF "murid" kuku panjang equal true
+        DISPLAY hukum
+    ELSE
+        DISPLAY puji
+    END IF
+
+ENDWHILE
+
+    
